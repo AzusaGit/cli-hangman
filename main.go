@@ -15,11 +15,11 @@ func main() {
 		fmt.Print("\nPlay again? (Y/n)\n> ")
 		fmt.Scan(&choice)
 
-        choice = strings.ToLower(choice)
-        choice = strings.TrimSpace(choice)
+        	choice = strings.ToLower(choice)
+        	choice = strings.TrimSpace(choice)
 
-        if choice != "y" {
-            return
-        } 
+        	if choice != "y" {
+            		return
+        	} 
 	}
 }
