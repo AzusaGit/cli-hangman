@@ -5,8 +5,8 @@ import (
 	"strings"
 )
 
-func startGame() {
-	var word string = getWord()
+func startGame(wordRes string) {
+	var word string = wordRes
 	var ans string
 
 	var fails uint8 = 0
