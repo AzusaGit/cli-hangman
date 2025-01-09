@@ -13,7 +13,7 @@ func main() {
 		var wordRes, err = getWord()
 
 		if err != nil {
-			fmt.Printf("\n%s", err)
+			fmt.Printf("\n%s\n", err)
 			fmt.Print("Do you want to try again? (Y/n)\n> ")
 			fmt.Scan(&choice)
 
